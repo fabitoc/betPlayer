@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img class="header__logo " src="img/gaming.png" alt="img-bet">
+        </a>
+    </header>
+    <nav>
+
+        <a class="enlace__nav " href="deportes.html">
+            <div class="deviso">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-letter-d" width="52"
+                    height="52" viewBox="0 0 24 24" stroke-width="3" stroke="#597e8d" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M7 4h6a5 5 0 0 1 5 5v6a5 5 0 0 1 -5 5h-6v-16" />
+                </svg>
+
+                <span>Deporte</span>
+            </div>
+
+        </a>
+        <a href="casino.html" class="enlace__nav">
+            <div class="casino">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-bing" width="52"
+                    height="52" viewBox="0 0 24 24" stroke-width="3" stroke="#ff2825" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M5 3l4 1.5v12l6 -2.5l-2 -1l-1 -4l7 2.5v4.5l-10 5l-4 -2z" />
+                </svg>
+                <span>Casino</span>
+            </div>
+        </a>
+    </nav>
+
+    <main class="contenedor">
+
+        <h1>Apuesta ya !</h1>
+        <div class="casino__contenido">
+
+            <img class="budDos" src="/img/Bud.jpg" alt="budDos">
+
+            <div class="contenido__formulario">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla feugiat convallis viverra.
+                    Maecenas fermentum sollicitudin sollicitudin.
+                    Fusce id cursus quam. Morbi semper accumsan mauris,
+                    quis venenatis arcu pretium vel.
+                    Nulla facilisi.
+                    Integer sit amet porttitor nulla, auctor viverra leo.
+                    Cras nec ex mollis, semper odio id, accumsan velit.
+                </p>
+                <form class="formulario">
+                    <select class="input__campo">
+                        <option class="input__campo" disabled selected > >--seleccione talla--< </option>
+                        <option> chica </option>
+                        <option> mediana </option>
+                        <option> grande </option>
+                    </select>
+                    <input class="input__campo" type="number" placeholder="cantidad" min="1"></input>
+                    <input class="input__submmit" type="submit" value="Hacer Apuesta"></input>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
